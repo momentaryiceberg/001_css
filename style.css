@@ -1,0 +1,21 @@
+#takki {
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  /* Þetta er grid (3x3) */
+    grid-gap: 10px;
+    width: 200px; /* Adjust the width as per your requirement */
+    height: 100px; /* Adjust the height as per your requirement */
+    
+    margin: 0 auto; /* Center the element horizontally */
+    position: absolute; /* Position the element absolutely */
+    top: 50%; /* Move the element 50% from the top */
+    left: 50%; /* Move the element 50% from the left */
+    transform: translate(-50%, -50%); /* Translate the element to center it */
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
